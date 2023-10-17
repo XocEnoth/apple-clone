@@ -1,0 +1,109 @@
+.navbar{
+    background-color: rgba(22, 22, 23, .8);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 22px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav ul{
+    margin: 0 -8px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li a .logo-nav-img{
+    height: 17px;
+}
+
+.nav ul li a .search-nav-img{
+    height: 15px;
+}
+
+.nav ul li a .bag-nav-img{
+    height: 16px;
+}
+
+.hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 624px;
+    background-color: rgb(0, 0, 0);
+}
+
+.hyperlink a{
+    width: 100%;
+    height: 631px;
+    position: absolute;
+    display: inline-block;
+}
+
+.hero-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f7;
+    padding-top: 47px;
+    margin-top: 44px;
+}
+
+.hero-text h2{
+    font-size: 56px;
+    line-height: 1.07143px;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.hero-text h3{
+    font-size: 28px;
+    line-height: 1.10722px;
+    letter-spacing: .004em;
+    font-weight: 400;
+}
+
+.hero-link a{
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.231px;
+    line-height: 29.001px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-link a:hover{
+    text-decoration: underline;
+}
+
+.hero-img img{
+    width: 100%;
+}
